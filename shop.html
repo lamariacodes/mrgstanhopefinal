@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+</style>
+
+<body>
+<a href="file:///Users/mariareedgriffin/Desktop/html-final/index.html">
+<img border="0" alt="Header Image" src="./assets/images/stanhope-header.jpg" width="100" height="90">
+</head>
+
+<head>
+<style>
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 30;
+  overflow: hidden;
+  background-color: #E29526;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 60px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #E29526;
+}
+
+.active {
+  background-color: white;
+  font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="discography.html">Discography</a></li>
+    <li><a href="media.html">Media</a></li>
+    <li><a href="tour-dates.html">Tour Dates</a></li>
+    <li><a class="active" href="shop.html">Shop</a></li>
+</ul>
+</body>
+
+<head>
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+<img src="./assets/images/doug-home-2.jpg"
+<img src="doug-home-2.jpg" alt="Doug Home" class="responsive">
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #white;
+  color: black;
+}
+
+.fa-twitter {
+  background: #white;
+  color: black;
+}
+
+.fa-instagram {
+  background: #white;
+  color: black;
+}
+</style>
+<center>
+</head>
+<body>
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/officialstanhope/" class="fa fa-facebook"></a>
+  <a href="https://www.google.com/search?client=safari&rls=en&q=doug+stanhope+twitter&ie=UTF-8&oe=UTF-8" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/realstanhope/?hl=en" class="fa fa-instagram"></a>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #E29526;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FFE4B5;
+}
+
+.btn.active {
+  background-color: #E29526;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h2>Shop</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('apparel')"> Apparel</button>
+  <button class="btn" onclick="filterSelection('stuff')"> Stuff</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column apparel">
+    <div class="content">
+      <img src="./assets/images/apparel-1.jpg" alt="Apparel" style="width:100%">
+      <h4>Abortion is Green T-Shirt</h4>
+      <p>$20.00 each</p>
+    </div>
+  </div>
+  <div class="column apparel">
+    <div class="content">
+    <img src="./assets/images/apparel-2.jpg" alt="Apparel" style="width:100%">
+      <h4>Popov Vodka Presents T-Shirt</h4>
+      <p>$20.00 each</p>
+    </div>
+  </div>
+  <div class="column apparel">
+    <div class="content">
+      <img src="./assets/images/apparel-3.jpg" alt="Apparel" style="width:100%">
+      <h4>The Doug Stanhope Podcast T-Shirt</h4>
+      <p>$20.00 each</p>
+    </div>
+  </div>
+  <div class="column stuff">
+    <div class="content">
+    <img src="./assets/images/stuff-1.png" alt="Stuff" style="width:100%">
+      <h4>Big Stink Shot Glass</h4>
+      <p>$10.00 for 2</p>
+    </div>
+  </div>
+  <div class="column stuff">
+    <div class="content">
+    <img src="./assets/images/stuff-2.jpg" alt="Stuff" style="width:100%">
+      <h4>Podcast Coffee Mug</h4>
+      <p>10.00 each</p>
+    </div>
+  </div>
+
+  <div class="column stuff">
+    <div class="content">
+      <img src="./assets/images/stuff-3.jpg" alt="Stuff" style="width:100%">
+      <h4>This is Not Fame: A "From What I Re-Memoir" (Signed Copy)</h4>
+      <p>$32.00 each</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+</html>

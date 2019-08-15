@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+</style>
+
+<body>
+<a href="file:///Users/mariareedgriffin/Desktop/html-final/index.html">
+<img border="0" alt="Header Image" src="./assets/images/stanhope-header.jpg" width="100" height="90">
+</head>
+
+<head>
+<style>
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 30;
+  overflow: hidden;
+  background-color: #E29526;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 60px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #E29526;
+}
+
+.active {
+  background-color: white;
+  font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="discography.html">Discography</a></li>
+    <li><a class="active" href="media.html">Media</a></li>
+    <li><a href="tour-dates.html">Tour Dates</a></li>
+    <li><a href="shop.html">Shop</a></li>
+</ul>
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+<img src="./assets/images/doug-home-2.jpg"
+<img src="doug-home-2.jpg" alt="Doug Home" class="responsive">
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #white;
+  color: black;
+}
+
+.fa-twitter {
+  background: #white;
+  color: black;
+}
+
+.fa-instagram {
+  background: #white;
+  color: black;
+}
+
+</style>
+<center>
+<body>
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/officialstanhope/" class="fa fa-facebook"></a>
+  <a href="https://www.google.com/search?client=safari&rls=en&q=doug+stanhope+twitter&ie=UTF-8&oe=UTF-8" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/realstanhope/?hl=en" class="fa fa-instagram"></a>
+</head>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 8 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 70px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #E29526;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: center;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #E29526;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 0px 0px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0px 0 0 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: 0px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+
+<body>
+<h2 style="text-align:center">Photo Gallery</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="./assets/images/photo-1.jpg" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-2.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-3.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-4.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-5.jpg" style="width:50%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-6.jpg" style="width:50%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-7.jpg" style="width:50%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./assets/images/photo-8.jpg" style="width:50%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="./assets/images/photo-1.jpg" style="width:60%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="./assets/images/photo-2.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="./assets/images/photo-3.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="./assets/images/photo-4.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="./assets/images/photo-5.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="./assets/images/photo-6.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="./assets/images/photo-7.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="./assets/images/photo-8.jpg" style="width:90%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-1.jpg" style="width:40%" onclick="currentSlide(1)" alt="Bingo Pushes Doug">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-2.jpg" style="width:40%" onclick="currentSlide(2)" alt="Doug Backyard">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-3.jpg" style="width:40%" onclick="currentSlide(3)" alt="Kitchen Doug">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-4.jpg" style="width:40%" onclick="currentSlide(4)" alt="Doug's Front Yard">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-5.jpg" style="width:40%" onclick="currentSlide(5)" alt="Doug Living Room">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-6.jpg" style="width:40%" onclick="currentSlide(6)" alt="Doug Performing">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-7.jpg" style="width:40%" onclick="currentSlide(7)" alt="Doug UA Hoodie">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./assets/images/photo-8.jpg" style="width:40%" onclick="currentSlide(8)" alt="Doug & Bingo">
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RycwYRcm3Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</head>
+</body>
+</html>
